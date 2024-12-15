@@ -209,6 +209,17 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.icon-1 {
+    height: 2.5rem;
+    border-radius: 50%; 
+}
+
+.icon_arrow {
+    cursor: pointer;
+    height: 3rem;
+    border-radius: 50%; 
+}
+
 
 /* BUTTONS */
 .btn-container {
@@ -252,4 +263,34 @@ a:hover {
 
 .btn-container {
     gap: 1rem;
+}
+
+/* ABOUT SECTION */
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.icon_arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
 }
