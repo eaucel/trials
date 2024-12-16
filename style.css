@@ -426,5 +426,12 @@ a:hover {
     cursor: default;
 }
 
+/* FOOTER */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
 
-
+footer p {
+    text-align: center;
+}
